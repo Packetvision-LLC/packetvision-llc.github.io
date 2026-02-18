@@ -1,0 +1,28 @@
+---
+// Footer component for Packetvision site
+---
+
+<footer class="py-8 px-4 bg-gray-950 border-t border-gray-800">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+    <div>&copy; {new Date().getFullYear()} Packetvision LLC. All rights reserved.</div>
+    <div class="flex items-center gap-6">
+      <a href="/about" class="hover:text-gray-300 transition-colors">About</a>
+      <a href="/services" class="hover:text-gray-300 transition-colors">Services</a>
+      <a href="/products" class="hover:text-gray-300 transition-colors">Products</a>
+      <a href="/hosting" class="hover:text-gray-300 transition-colors">Hosting</a>
+      <a href="/contact" class="hover:text-gray-300 transition-colors">Contact</a>
+      <a href="#" id="footer-contact" class="hover:text-gray-300 transition-colors">Get in Touch</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Email Obfuscation Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const email = 'stuart' + '@' + 'packetvision.net';
+    const footerContact = document.getElementById('footer-contact');
+    if (footerContact) {
+      footerContact.href = 'mailto:' + email;
+    }
+  });
+</script>

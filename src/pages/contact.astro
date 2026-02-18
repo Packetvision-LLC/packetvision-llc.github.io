@@ -1,0 +1,184 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/global.css';
+---
+
+<BaseLayout 
+  title="Contact - Packetvision LLC | Get in Touch for Your Software Project" 
+  description="Contact Packetvision LLC for custom software development, cloud architecture, and AI automation solutions. Based in Salem, Virginia, serving clients nationwide."
+>
+  <div class="container mx-auto px-4 py-16">
+    <!-- Header -->
+    <section class="text-center mb-16">
+      <h1 class="text-5xl font-bold mb-6 text-white">Get In Touch</h1>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+        Ready to discuss your project? We'd love to hear about your goals and explore 
+        how we can help you achieve them with innovative technology solutions.
+      </p>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="max-w-4xl mx-auto mb-16">
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Primary Contact -->
+        <div class="bg-gray-800 p-8 rounded-xl">
+          <div class="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h2 class="text-2xl font-bold text-white mb-4">Email</h2>
+          <p class="text-gray-300 mb-6">
+            The fastest way to reach us for project inquiries, questions, or consultations.
+          </p>
+          <div class="space-y-3">
+            <div>
+              <a href="#" id="primary-email" class="text-blue-400 hover:text-blue-300 text-lg font-medium transition-colors">
+                <!-- Email will be populated by JavaScript -->
+              </a>
+            </div>
+            <p class="text-gray-400 text-sm">
+              We typically respond within 24 hours during business days.
+            </p>
+          </div>
+        </div>
+
+        <!-- Professional Network -->
+        <div class="bg-gray-800 p-8 rounded-xl">
+          <div class="w-16 h-16 bg-blue-700 rounded-xl flex items-center justify-center mb-6">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </div>
+          <h2 class="text-2xl font-bold text-white mb-4">LinkedIn</h2>
+          <p class="text-gray-300 mb-6">
+            Connect with Stuart Bain to discuss opportunities and learn more about our expertise.
+          </p>
+          <div class="space-y-3">
+            <div>
+              <a href="https://linkedin.com/in/stbain" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 text-lg font-medium transition-colors">
+                linkedin.com/in/stbain
+              </a>
+            </div>
+            <p class="text-gray-400 text-sm">
+              Professional network and industry connections.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Availability -->
+    <section class="max-w-3xl mx-auto mb-16">
+      <div class="bg-gray-800 p-10 rounded-xl text-center">
+        <h2 class="text-2xl font-bold text-white mb-6">Location & Availability</h2>
+        <div class="grid md:grid-cols-2 gap-8 text-left">
+          <div>
+            <h3 class="text-white font-semibold mb-3 flex items-center gap-2">
+              <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+              Headquarters
+            </h3>
+            <p class="text-gray-300 text-sm">
+              Salem, Virginia<br>
+              Blue Ridge Mountains<br>
+              Serving clients nationwide
+            </p>
+          </div>
+          <div>
+            <h3 class="text-white font-semibold mb-3 flex items-center gap-2">
+              <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              Availability
+            </h3>
+            <p class="text-gray-300 text-sm">
+              All consultations by appointment only<br>
+              Flexible scheduling available<br>
+              Evening and weekend appointments accommodated
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Inquiry Guide -->
+    <section class="mb-16">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-white mb-4">Ready to Start Your Project?</h2>
+        <p class="text-gray-300 text-lg max-w-2xl mx-auto">
+          Help us understand your needs with these key details in your initial message
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div class="bg-gray-800 p-6 rounded-lg">
+          <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mb-4">
+            <span class="text-white font-bold text-sm">1</span>
+          </div>
+          <h3 class="text-white font-semibold mb-2">Project Overview</h3>
+          <p class="text-gray-300 text-sm">
+            Brief description of your goals, current challenges, and what success looks like for your organization.
+          </p>
+        </div>
+        
+        <div class="bg-gray-800 p-6 rounded-lg">
+          <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mb-4">
+            <span class="text-white font-bold text-sm">2</span>
+          </div>
+          <h3 class="text-white font-semibold mb-2">Technical Context</h3>
+          <p class="text-gray-300 text-sm">
+            Existing technologies, platforms, integrations, and any specific requirements or constraints.
+          </p>
+        </div>
+        
+        <div class="bg-gray-800 p-6 rounded-lg">
+          <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mb-4">
+            <span class="text-white font-bold text-sm">3</span>
+          </div>
+          <h3 class="text-white font-semibold mb-2">Timeline & Budget</h3>
+          <p class="text-gray-300 text-sm">
+            Desired timeline, key milestones, and budget considerations to help us align our approach.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="text-center bg-gradient-to-r from-blue-900 to-purple-900 p-12 rounded-xl">
+      <h2 class="text-4xl font-bold mb-4 text-white">Let's Build Something Great Together</h2>
+      <p class="text-gray-200 mb-8 max-w-3xl mx-auto text-lg">
+        Every successful project starts with a conversation. We offer free initial consultations 
+        to understand your needs and explore how we can help you achieve your technology goals.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#" id="cta-email" class="bg-white text-gray-900 hover:bg-gray-100 px-10 py-4 rounded-lg font-semibold text-lg transition-colors">
+          Send Us a Message
+        </a>
+        <a href="/about" class="border border-white text-white hover:bg-white hover:text-gray-900 px-10 py-4 rounded-lg font-semibold text-lg transition-colors">
+          Learn About Us
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Email Obfuscation Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Obfuscate email addresses
+      const email = 'stuart' + '@' + 'packetvision.net';
+      const emailElements = document.querySelectorAll('#primary-email, #cta-email');
+      
+      emailElements.forEach(element => {
+        if (element) {
+          element.href = 'mailto:' + email;
+          if (element.id === 'primary-email') {
+            element.textContent = email;
+          }
+        }
+      });
+    });
+  </script>
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Packetvision LLC - Custom Software Development & AI Solutions" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="dark:bg-gray-900 dark:text-white bg-white text-gray-900 min-h-screen">
+		<Navigation />
+		<main>
+			<slot />
+		</main>
+		<Footer />
+	</body>
+</html>
