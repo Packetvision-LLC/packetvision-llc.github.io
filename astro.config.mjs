@@ -4,8 +4,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind()],
   site: 'https://packetvision-llc.github.io',
+  integrations: [tailwind()],
   base: '/',
   output: 'static',
   build: {
