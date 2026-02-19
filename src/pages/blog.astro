@@ -1,14 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import BlogSearch from '../components/BlogSearch.astro';
 import '../styles/global.css';
 
 const blogPosts = await getCollection('blog', ({ data }) => {
   return !data.draft;
 });
 
-// Sort posts by date, newest first
+// Sort posts by date, newest first and get first 10
 const sortedPosts = blogPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const firstPagePosts = sortedPosts.slice(0, 10);
+const totalPages = Math.ceil(sortedPosts.length / 10);
 ---
 
 <BaseLayout title="Blog - Packetvision LLC | Technology Insights & Updates" 
@@ -21,12 +24,20 @@ const sortedPosts = blogPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.p
         Insights on software development, cloud architecture, AI automation, and emerging technologies. 
         We share our experiences, lessons learned, and technical expertise to help the developer community.
       </p>
+      {totalPages > 1 && (
+        <div class="mt-6 text-gray-400">
+          Page 1 of {totalPages} ({sortedPosts.length} total posts)
+        </div>
+      )}
     </section>
 
+    <!-- Blog Search -->
+    <BlogSearch />
+
     <!-- Blog Posts Section -->
-    {sortedPosts.length > 0 ? (
+    {firstPagePosts.length > 0 ? (
       <section class="space-y-8 mb-16">
-        {sortedPosts.map((post) => (
+        {firstPagePosts.map((post) => (
           <article class="bg-gray-800 rounded-xl p-8 hover:bg-gray-750 transition-colors">
             <div class="flex flex-col lg:flex-row gap-6">
               {post.data.heroImage && (
@@ -88,105 +99,45 @@ const sortedPosts = blogPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.p
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path>
             </svg>
           </div>
-          <h2 class="text-2xl font-bold text-white mb-4">Blog Coming Soon</h2>
+          <h2 class="text-2xl font-bold text-white mb-4">No Posts Found</h2>
           <p class="text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            We're working on bringing you valuable insights about software development, cloud architecture, 
-            AI automation, and technology trends. Stay tuned for in-depth articles, tutorials, and case studies.
+            There are no published blog posts at this time. Please check back later for updates.
           </p>
-          
-          <!-- Newsletter Signup Placeholder -->
-          <div class="bg-gray-700 rounded-lg p-6 max-w-md mx-auto">
-            <h3 class="text-white font-semibold mb-3">Get Notified</h3>
-            <p class="text-gray-300 text-sm mb-4">
-              Want to be notified when we publish our first post? Send us an email and we'll let you know.
-            </p>
-            <a href="#?subject=Blog%20Updates" 
-               id="blog-notify"
-               class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors inline-block">
-              Notify Me
-            </a>
-          </div>
         </div>
       </section>
     )}
 
-    <!-- Topics We'll Cover -->
-    <section class="bg-gradient-to-r from-gray-800 to-gray-700 p-12 rounded-xl mb-16">
-      <div class="text-center mb-8">
-        <h2 class="text-3xl font-bold text-white mb-4">Topics We'll Cover</h2>
-        <p class="text-gray-300 text-lg max-w-3xl mx-auto">
-          Our blog will focus on practical insights and real-world experiences from our development work.
-        </p>
-      </div>
-
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="text-center">
-          <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-3">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-            </svg>
+    <!-- Pagination Navigation -->
+    {totalPages > 1 && (
+      <nav class="flex justify-center items-center gap-4 mt-16">
+        <div class="flex items-center gap-2">
+          <!-- Page Numbers -->
+          <div class="flex gap-1 mx-4">
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
+              <a
+                href={pageNum === 1 ? '/blog/' : `/blog/page-${pageNum}/`}
+                class={pageNum === 1 
+                  ? 'px-3 py-2 bg-blue-600 text-white rounded-lg font-medium' 
+                  : 'px-3 py-2 bg-gray-800 text-gray-300 rounded-lg hover:bg-gray-700 transition-colors'}
+              >
+                {pageNum}
+              </a>
+            ))}
           </div>
-          <h3 class="text-white font-semibold mb-2">Software Development</h3>
-          <p class="text-gray-300 text-sm">Best practices, frameworks, and development workflows</p>
-        </div>
 
-        <div class="text-center">
-          <div class="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center mx-auto mb-3">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
-            </svg>
-          </div>
-          <h3 class="text-white font-semibold mb-2">Cloud Architecture</h3>
-          <p class="text-gray-300 text-sm">AWS patterns, serverless design, and infrastructure optimization</p>
+          {totalPages > 1 && (
+            <a
+              href="/blog/page-2/"
+              class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors flex items-center gap-2"
+            >
+              Next
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          )}
         </div>
-
-        <div class="text-center">
-          <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mx-auto mb-3">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-            </svg>
-          </div>
-          <h3 class="text-white font-semibold mb-2">AI & Automation</h3>
-          <p class="text-gray-300 text-sm">AI integration, automation strategies, and practical implementations</p>
-        </div>
-
-        <div class="text-center">
-          <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mx-auto mb-3">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-            </svg>
-          </div>
-          <h3 class="text-white font-semibold mb-2">DevSecOps</h3>
-          <p class="text-gray-300 text-sm">Security practices, CI/CD pipelines, and deployment strategies</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="text-center bg-gradient-to-r from-blue-900 to-purple-900 p-12 rounded-xl">
-      <h2 class="text-4xl font-bold mb-4 text-white">Have a Topic Suggestion?</h2>
-      <p class="text-gray-200 mb-8 max-w-3xl mx-auto text-lg">
-        We'd love to hear what topics you'd like us to cover. Send us your suggestions 
-        or questions about software development, cloud architecture, or technology trends.
-      </p>
-      <a href="#?subject=Blog%20Topic%20Suggestion" 
-         id="blog-suggestion"
-         class="bg-white text-gray-900 hover:bg-gray-100 px-10 py-4 rounded-lg font-semibold text-lg transition-colors inline-block">
-        Suggest a Topic
-      </a>
-    </section>
+      </nav>
+    )}
   </div>
-
-  <!-- Email Obfuscation Script -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      // Obfuscate email addresses
-      const email = 'stuart' + '@' + 'packetvision.net';
-      const contactElements = document.querySelectorAll('#blog-notify, #blog-suggestion');
-      
-      contactElements.forEach(element => {
-        element.href = 'mailto:' + email + '?subject=' + encodeURIComponent(element.href.split('?subject=')[1] || '');
-      });
-    });
-  </script>
 </BaseLayout>
