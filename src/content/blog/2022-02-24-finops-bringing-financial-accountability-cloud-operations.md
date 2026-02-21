@@ -217,4 +217,4 @@ The key is to view FinOps as a cultural and organizational transformation that r
 
 ---
 
-*Packetvision LLC helps organizations implement FinOps practices and optimize cloud costs. For guidance on cloud financial management and cost optimization, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement FinOps practices and optimize cloud costs. For guidance on cloud financial management and cost optimization, [Contact us](/contact).*

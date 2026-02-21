@@ -168,4 +168,4 @@ Organizations that approach AI strategically, starting with pilot projects and b
 
 ---
 
-*Packetvision LLC helps organizations develop AI strategies and implement machine learning solutions. For guidance on enterprise AI initiatives, contact our contact page at /contact.*
+*Packetvision LLC helps organizations develop AI strategies and implement machine learning solutions. For guidance on enterprise AI initiatives, [Contact us](/contact).*

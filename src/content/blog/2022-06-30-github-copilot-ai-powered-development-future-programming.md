@@ -217,4 +217,4 @@ Organizations that thoughtfully integrate AI coding tools while maintaining appr
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement AI-powered development tools and practices. For guidance on AI-assisted software development strategies, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement AI-powered development tools and practices. For guidance on AI-assisted software development strategies, [Contact us](/contact).*

@@ -176,4 +176,4 @@ Organizations should evaluate edge computing opportunities based on specific bus
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement edge computing solutions. For guidance on edge computing strategies and deployment, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement edge computing solutions. For guidance on edge computing strategies and deployment, [Contact us](/contact).*

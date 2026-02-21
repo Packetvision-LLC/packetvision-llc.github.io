@@ -267,4 +267,4 @@ Success requires viewing hybrid work as a strategic business capability rather t
 
 ---
 
-*Packetvision LLC helps organizations design and implement technology infrastructure for effective hybrid work environments. For guidance on hybrid work strategy and technology implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement technology infrastructure for effective hybrid work environments. For guidance on hybrid work strategy and technology implementation, [Contact us](/contact).*

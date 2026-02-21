@@ -295,4 +295,4 @@ The key is to approach Web3 with realistic expectations, focusing on specific us
 
 ---
 
-*Packetvision LLC helps organizations understand and evaluate Web3 technologies for enterprise applications. For guidance on Web3 strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations understand and evaluate Web3 technologies for enterprise applications. For guidance on Web3 strategy and implementation, [Contact us](/contact).*

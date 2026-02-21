@@ -205,4 +205,4 @@ Success with multi-cloud approaches requires careful planning, significant inves
 
 ---
 
-*Packetvision LLC helps organizations develop and implement multi-cloud strategies that balance flexibility with manageability. For guidance on multi-cloud architecture and management, contact our contact page at /contact.*
+*Packetvision LLC helps organizations develop and implement multi-cloud strategies that balance flexibility with manageability. For guidance on multi-cloud architecture and management, [Contact us](/contact).*

@@ -201,4 +201,4 @@ The key is to approach platform engineering as a long-term investment in develop
 
 ---
 
-*Packetvision LLC helps organizations design and implement platform engineering strategies. For guidance on building developer-centric infrastructure platforms, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement platform engineering strategies. For guidance on building developer-centric infrastructure platforms, [Contact us](/contact).*

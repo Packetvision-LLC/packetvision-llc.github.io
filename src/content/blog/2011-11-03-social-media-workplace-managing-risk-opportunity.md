@@ -89,4 +89,4 @@ Social media is here to stay. Rather than fighting the trend, businesses should 
 
 ---
 
-*Packetvision LLC helps organizations develop balanced social media strategies that support business objectives while managing security risks. Contact our contact page at /contact for more information.*
+*Packetvision LLC helps organizations develop balanced social media strategies that support business objectives while managing security risks. [Contact us](/contact) for more information.*

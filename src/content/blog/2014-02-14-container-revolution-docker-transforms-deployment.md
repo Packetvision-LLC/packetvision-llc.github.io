@@ -153,4 +153,4 @@ The key is to approach containerization strategically, focusing on specific prob
 
 ---
 
-*Packetvision LLC helps organizations develop container strategies and implement Docker-based solutions. For guidance on containerization initiatives, contact our contact page at /contact.*
+*Packetvision LLC helps organizations develop container strategies and implement Docker-based solutions. For guidance on containerization initiatives, [Contact us](/contact).*

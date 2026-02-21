@@ -333,4 +333,4 @@ Organizations that adopt event-driven architectures thoughtfully, with proper at
 
 ---
 
-*Packetvision LLC helps organizations design and implement event-driven architectures for responsive, scalable enterprise systems. For guidance on event-driven design and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement event-driven architectures for responsive, scalable enterprise systems. For guidance on event-driven design and implementation, [Contact us](/contact).*

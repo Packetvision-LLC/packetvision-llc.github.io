@@ -123,4 +123,4 @@ The key is to approach big data strategically, focusing on specific business out
 
 ---
 
-*Packetvision LLC helps organizations develop big data strategies and implement analytics solutions. For guidance on your big data initiatives, contact our contact page at /contact.*
+*Packetvision LLC helps organizations develop big data strategies and implement analytics solutions. For guidance on your big data initiatives, [Contact us](/contact).*

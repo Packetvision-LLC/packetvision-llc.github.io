@@ -55,4 +55,4 @@ Virtualization is not just about consolidating servers—it's about creating a m
 
 ---
 
-*Need help planning your virtualization strategy? Packetvision LLC specializes in virtualization architecture and implementation. Reach out to our contact page at /contact for a consultation.*
+*Need help planning your virtualization strategy? Packetvision LLC specializes in virtualization architecture and implementation. [Reach out to us](/contact) for a consultation.*

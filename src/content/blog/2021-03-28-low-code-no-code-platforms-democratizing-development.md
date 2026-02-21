@@ -273,4 +273,4 @@ Organizations that implement low-code platforms thoughtfully, with appropriate g
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement low-code/no-code platforms and establish citizen development programs. For guidance on low-code strategy and governance, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement low-code/no-code platforms and establish citizen development programs. For guidance on low-code strategy and governance, [Contact us](/contact).*

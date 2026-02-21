@@ -155,4 +155,4 @@ Organizations that approach Hadoop strategically, focusing on specific business 
 
 ---
 
-*Packetvision LLC provides Hadoop implementation and big data strategy consulting services. For guidance on your big data initiatives, contact our contact page at /contact.*
+*Packetvision LLC provides Hadoop implementation and big data strategy consulting services. For guidance on your big data initiatives, [Contact us](/contact).*

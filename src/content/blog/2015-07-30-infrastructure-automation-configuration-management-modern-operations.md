@@ -275,4 +275,4 @@ Success requires careful tool selection, comprehensive planning, and organizatio
 
 ---
 
-*Packetvision LLC helps organizations implement infrastructure automation and configuration management solutions. For guidance on configuration management strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement infrastructure automation and configuration management solutions. For guidance on configuration management strategy and implementation, [Contact us](/contact).*

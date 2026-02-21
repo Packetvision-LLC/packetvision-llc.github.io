@@ -181,4 +181,4 @@ The key is to understand the strengths and limitations of serverless platforms a
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement serverless computing strategies. For guidance on serverless architecture and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement serverless computing strategies. For guidance on serverless architecture and implementation, [Contact us](/contact).*

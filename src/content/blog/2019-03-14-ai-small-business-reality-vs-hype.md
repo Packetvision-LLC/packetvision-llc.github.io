@@ -259,4 +259,4 @@ The key is to start small, focus on specific business value, and build AI capabi
 
 ---
 
-*Packetvision LLC helps small and medium businesses evaluate and implement practical AI solutions that deliver measurable business value. Contact us at our contact page at /contact for guidance on AI strategy and implementation.*
+*Packetvision LLC helps small and medium businesses evaluate and implement practical AI solutions that deliver measurable business value. [Contact us](/contact) for guidance on AI strategy and implementation.*

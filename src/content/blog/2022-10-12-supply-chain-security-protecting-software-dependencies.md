@@ -229,4 +229,4 @@ The key is to implement layered security controls while maintaining development 
 
 ---
 
-*Packetvision LLC helps organizations implement comprehensive supply chain security programs. For guidance on securing software dependencies and build pipelines, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement comprehensive supply chain security programs. For guidance on securing software dependencies and build pipelines, [Contact us](/contact).*

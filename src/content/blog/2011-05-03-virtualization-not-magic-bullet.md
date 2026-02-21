@@ -225,4 +225,4 @@ The key is to view virtualization as one tool in the IT toolkit rather than a un
 
 ---
 
-*Packetvision LLC provides virtualization assessment and implementation services to help organizations make informed decisions about virtualization initiatives. Contact us at our contact page at /contact for guidance on your virtualization strategy.*
+*Packetvision LLC provides virtualization assessment and implementation services to help organizations make informed decisions about virtualization initiatives. [Contact us](/contact) for guidance on your virtualization strategy.*

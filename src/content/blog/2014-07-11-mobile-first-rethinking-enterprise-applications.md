@@ -173,4 +173,4 @@ The key is to start with user needs and mobile constraints rather than trying to
 
 ---
 
-*Packetvision LLC helps organizations develop mobile-first strategies and implement enterprise mobile applications. For guidance on mobile transformation initiatives, contact our contact page at /contact.*
+*Packetvision LLC helps organizations develop mobile-first strategies and implement enterprise mobile applications. For guidance on mobile transformation initiatives, [Contact us](/contact).*

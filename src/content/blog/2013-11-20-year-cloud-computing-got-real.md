@@ -223,4 +223,4 @@ The question for 2014 is not whether organizations will adopt cloud computing, b
 
 ---
 
-*Packetvision LLC has helped numerous organizations navigate their cloud transformation journey throughout 2013. Contact us at our contact page at /contact to discuss your cloud strategy for 2014 and beyond.*
+*Packetvision LLC has helped numerous organizations navigate their cloud transformation journey throughout 2013. [Contact us](/contact) to discuss your cloud strategy for 2014 and beyond.*

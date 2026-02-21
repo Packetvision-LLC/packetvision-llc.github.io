@@ -273,4 +273,4 @@ The key is to approach sustainability as an integral part of IT strategy rather 
 
 ---
 
-*Packetvision LLC helps organizations implement sustainable technology practices and reduce the environmental impact of IT operations. For guidance on green IT strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement sustainable technology practices and reduce the environmental impact of IT operations. For guidance on green IT strategy and implementation, [Contact us](/contact).*

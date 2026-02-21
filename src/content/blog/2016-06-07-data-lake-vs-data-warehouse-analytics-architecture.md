@@ -263,4 +263,4 @@ The key is to choose architectural approaches that align with actual business ne
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement analytical architectures that align with business requirements and technical constraints. Contact us at our contact page at /contact for guidance on data lake and warehouse strategies.*
+*Packetvision LLC helps organizations evaluate and implement analytical architectures that align with business requirements and technical constraints. [Contact us](/contact) for guidance on data lake and warehouse strategies.*

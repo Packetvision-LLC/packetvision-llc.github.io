@@ -293,4 +293,4 @@ Success with enterprise AR requires focusing on solving real business problems r
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement Augmented Reality solutions for enterprise applications. For guidance on AR strategy and development, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement Augmented Reality solutions for enterprise applications. For guidance on AR strategy and development, [Contact us](/contact).*

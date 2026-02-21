@@ -164,4 +164,4 @@ The key is to approach orchestration strategically, starting with appropriate ap
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement container orchestration solutions. For guidance on Kubernetes and container orchestration strategies, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement container orchestration solutions. For guidance on Kubernetes and container orchestration strategies, [Contact us](/contact).*

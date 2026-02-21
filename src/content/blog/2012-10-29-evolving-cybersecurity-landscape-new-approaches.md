@@ -117,4 +117,4 @@ The key is to move beyond checklist compliance toward risk-based security manage
 
 ---
 
-*Packetvision LLC provides cybersecurity strategy and implementation services to help organizations protect against evolving threats. Contact our contact page at /contact for a security assessment.*
+*Packetvision LLC provides cybersecurity strategy and implementation services to help organizations protect against evolving threats. [Contact us](/contact) for a security assessment.*

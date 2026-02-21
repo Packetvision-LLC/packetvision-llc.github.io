@@ -231,4 +231,4 @@ The key is to base cloud decisions on objective analysis rather than industry hy
 
 ---
 
-*Packetvision LLC provides comprehensive cloud readiness assessments and strategic planning services. Contact us at our contact page at /contact to discuss your cloud evaluation needs.*
+*Packetvision LLC provides comprehensive cloud readiness assessments and strategic planning services. [Contact us](/contact) to discuss your cloud evaluation needs.*

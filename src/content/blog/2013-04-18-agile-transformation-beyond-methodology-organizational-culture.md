@@ -299,4 +299,4 @@ Organizations that approach agile transformation holistically, with focus on cul
 
 ---
 
-*Packetvision LLC helps organizations navigate comprehensive agile transformation that goes beyond methodology to achieve genuine organizational agility. For guidance on agile culture and transformation strategies, contact our contact page at /contact.*
+*Packetvision LLC helps organizations navigate comprehensive agile transformation that goes beyond methodology to achieve genuine organizational agility. For guidance on agile culture and transformation strategies, [Contact us](/contact).*

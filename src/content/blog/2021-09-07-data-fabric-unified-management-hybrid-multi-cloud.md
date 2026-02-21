@@ -293,4 +293,4 @@ Success requires viewing data fabric as a strategic business capability rather t
 
 ---
 
-*Packetvision LLC helps organizations design and implement data fabric architectures for unified data management across complex environments. For guidance on data fabric strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement data fabric architectures for unified data management across complex environments. For guidance on data fabric strategy and implementation, [Contact us](/contact).*

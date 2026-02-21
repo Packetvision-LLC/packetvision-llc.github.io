@@ -232,4 +232,4 @@ The key is to approach quantum computing with realistic expectations while takin
 
 ---
 
-*Packetvision LLC helps organizations prepare for the quantum computing era and develop quantum-ready strategies. For guidance on quantum computing preparedness and post-quantum security planning, contact our contact page at /contact.*
+*Packetvision LLC helps organizations prepare for the quantum computing era and develop quantum-ready strategies. For guidance on quantum computing preparedness and post-quantum security planning, [Contact us](/contact).*

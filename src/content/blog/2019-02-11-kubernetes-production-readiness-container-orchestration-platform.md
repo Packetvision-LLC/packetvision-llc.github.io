@@ -277,4 +277,4 @@ Success requires treating Kubernetes as a platform foundation rather than just a
 
 ---
 
-*Packetvision LLC helps organizations implement production-ready Kubernetes platforms and container orchestration strategies. For guidance on Kubernetes implementation and operations, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement production-ready Kubernetes platforms and container orchestration strategies. For guidance on Kubernetes implementation and operations, [Contact us](/contact).*

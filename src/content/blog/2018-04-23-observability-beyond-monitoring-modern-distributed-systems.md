@@ -225,4 +225,4 @@ The key is to view observability as an enabler of better decision-making rather 
 
 ---
 
-*Packetvision LLC helps organizations implement comprehensive observability strategies and modernize their monitoring approaches. For guidance on observability transformation and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement comprehensive observability strategies and modernize their monitoring approaches. For guidance on observability transformation and implementation, [Contact us](/contact).*

@@ -291,4 +291,4 @@ Organizations that approach data mesh holistically, addressing technology, organ
 
 ---
 
-*Packetvision LLC helps organizations design and implement data mesh architectures for scalable, domain-driven data management. For guidance on data mesh strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement data mesh architectures for scalable, domain-driven data management. For guidance on data mesh strategy and implementation, [Contact us](/contact).*

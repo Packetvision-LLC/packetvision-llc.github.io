@@ -118,4 +118,4 @@ Cloud computing has matured from an interesting technology to a business imperat
 
 ---
 
-*Packetvision LLC specializes in cloud strategy and migration planning. For help developing your cloud roadmap, contact our contact page at /contact.*
+*Packetvision LLC specializes in cloud strategy and migration planning. For help developing your cloud roadmap, [Contact us](/contact).*

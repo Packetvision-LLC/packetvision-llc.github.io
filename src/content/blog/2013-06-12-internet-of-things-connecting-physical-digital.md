@@ -145,4 +145,4 @@ The key is to focus on specific business problems that IoT can solve rather than
 
 ---
 
-*Packetvision LLC helps organizations develop IoT strategies and implement connected device solutions. For guidance on Internet of Things initiatives, contact our contact page at /contact.*
+*Packetvision LLC helps organizations develop IoT strategies and implement connected device solutions. For guidance on Internet of Things initiatives, [Contact us](/contact).*

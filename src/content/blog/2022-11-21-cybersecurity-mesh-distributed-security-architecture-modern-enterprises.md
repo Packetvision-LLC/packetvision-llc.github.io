@@ -259,4 +259,4 @@ The key is to approach cybersecurity mesh as an architectural philosophy rather 
 
 ---
 
-*Packetvision LLC helps organizations design and implement cybersecurity mesh architectures for distributed enterprise environments. For guidance on mesh security strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement cybersecurity mesh architectures for distributed enterprise environments. For guidance on mesh security strategy and implementation, [Contact us](/contact).*

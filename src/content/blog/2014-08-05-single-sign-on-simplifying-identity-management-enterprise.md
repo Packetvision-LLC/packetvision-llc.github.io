@@ -311,4 +311,4 @@ Organizations that implement SSO thoughtfully, with proper integration and secur
 
 ---
 
-*Packetvision LLC helps organizations design and implement Single Sign-On solutions that balance security, usability, and operational efficiency. For guidance on SSO strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement Single Sign-On solutions that balance security, usability, and operational efficiency. For guidance on SSO strategy and implementation, [Contact us](/contact).*

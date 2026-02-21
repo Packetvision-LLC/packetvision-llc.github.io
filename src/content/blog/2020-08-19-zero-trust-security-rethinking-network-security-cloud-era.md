@@ -205,4 +205,4 @@ The key is to approach zero trust as a journey rather than a destination, implem
 
 ---
 
-*Packetvision LLC helps organizations design and implement zero trust security architectures. For guidance on zero trust strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement zero trust security architectures. For guidance on zero trust strategy and implementation, [Contact us](/contact).*

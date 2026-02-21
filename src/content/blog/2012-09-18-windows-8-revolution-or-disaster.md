@@ -201,4 +201,4 @@ The decision to adopt, delay, or skip Windows 8 should be based on specific busi
 
 ---
 
-*Packetvision LLC provides strategic guidance on enterprise technology decisions and deployment planning. Contact us at our contact page at /contact for assistance with Windows 8 evaluation and planning.*
+*Packetvision LLC provides strategic guidance on enterprise technology decisions and deployment planning. [Contact us](/contact) for assistance with Windows 8 evaluation and planning.*

@@ -225,4 +225,4 @@ Success with metaverse initiatives requires careful planning, realistic expectat
 
 ---
 
-*Packetvision LLC helps organizations develop metaverse strategies and implement virtual collaboration solutions. For guidance on enterprise metaverse initiatives and virtual workspace design, contact our contact page at /contact.*
+*Packetvision LLC helps organizations develop metaverse strategies and implement virtual collaboration solutions. For guidance on enterprise metaverse initiatives and virtual workspace design, [Contact us](/contact).*

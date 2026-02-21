@@ -125,4 +125,4 @@ Organizations that successfully implement DevOps practices will be better positi
 
 ---
 
-*Packetvision LLC helps organizations implement DevOps practices and culture. For guidance on your DevOps transformation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement DevOps practices and culture. For guidance on your DevOps transformation, [Contact us](/contact).*

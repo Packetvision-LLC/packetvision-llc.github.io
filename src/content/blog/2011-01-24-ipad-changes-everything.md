@@ -207,4 +207,4 @@ The key is to approach tablet adoption thoughtfully, with appropriate attention 
 
 ---
 
-*Packetvision LLC helps organizations develop comprehensive mobility strategies that include tablet integration and management. Contact us at our contact page at /contact for guidance on enterprise tablet adoption.*
+*Packetvision LLC helps organizations develop comprehensive mobility strategies that include tablet integration and management. [Contact us](/contact) for guidance on enterprise tablet adoption.*

@@ -155,4 +155,4 @@ Organizations that approach hybrid cloud strategically, focusing on specific bus
 
 ---
 
-*Packetvision LLC helps organizations design and implement hybrid cloud strategies that align with business requirements. For guidance on hybrid cloud planning, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement hybrid cloud strategies that align with business requirements. For guidance on hybrid cloud planning, [Contact us](/contact).*

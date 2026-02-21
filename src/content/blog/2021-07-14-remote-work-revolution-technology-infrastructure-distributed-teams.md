@@ -192,4 +192,4 @@ Organizations that learn from this experience and thoughtfully design their remo
 
 ---
 
-*Packetvision LLC helps organizations design and implement technology infrastructure for effective remote and hybrid work. For guidance on remote work transformation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement technology infrastructure for effective remote and hybrid work. For guidance on remote work transformation, [Contact us](/contact).*

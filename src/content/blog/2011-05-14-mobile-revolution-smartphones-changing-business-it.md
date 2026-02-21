@@ -77,4 +77,4 @@ Consider the total cost of ownership, including not just device costs but also m
 
 ---
 
-*Packetvision LLC helps organizations develop comprehensive mobility strategies that balance user needs with security requirements. Contact our contact page at /contact for more information.*
+*Packetvision LLC helps organizations develop comprehensive mobility strategies that balance user needs with security requirements. [Contact us](/contact) for more information.*

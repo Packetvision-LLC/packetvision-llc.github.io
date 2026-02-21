@@ -194,4 +194,4 @@ The key is to approach generative AI strategically, focusing on specific busines
 
 ---
 
-*Packetvision LLC helps organizations develop generative AI strategies and implement LLM-powered solutions. For guidance on AI transformation and integration, contact our contact page at /contact.*
+*Packetvision LLC helps organizations develop generative AI strategies and implement LLM-powered solutions. For guidance on AI transformation and integration, [Contact us](/contact).*

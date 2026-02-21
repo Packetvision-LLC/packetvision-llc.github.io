@@ -339,4 +339,4 @@ Success requires viewing ITSM as a means to deliver business value rather than a
 
 ---
 
-*Packetvision LLC helps organizations implement and optimize IT Service Management practices that balance governance with business agility. For guidance on ITSM strategy and modernization, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement and optimize IT Service Management practices that balance governance with business agility. For guidance on ITSM strategy and modernization, [Contact us](/contact).*

@@ -215,4 +215,4 @@ The key is to approach cloud-native transformation gradually, learning from each
 
 ---
 
-*Packetvision LLC helps organizations design and implement cloud-native applications and architectures. For guidance on cloud-native transformation strategies, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement cloud-native applications and architectures. For guidance on cloud-native transformation strategies, [Contact us](/contact).*

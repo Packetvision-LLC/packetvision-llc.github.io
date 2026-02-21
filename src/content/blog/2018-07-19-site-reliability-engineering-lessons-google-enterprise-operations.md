@@ -269,4 +269,4 @@ The key is to approach SRE as a comprehensive methodology rather than just a set
 
 ---
 
-*Packetvision LLC helps organizations implement SRE practices and transform their operational approaches. For guidance on site reliability engineering and operational excellence, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement SRE practices and transform their operational approaches. For guidance on site reliability engineering and operational excellence, [Contact us](/contact).*

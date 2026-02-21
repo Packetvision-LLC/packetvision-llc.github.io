@@ -261,4 +261,4 @@ The key is to focus on business value rather than technology novelty, with reali
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement enterprise blockchain solutions for supply chain, identity management, and process automation. For guidance on blockchain strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement enterprise blockchain solutions for supply chain, identity management, and process automation. For guidance on blockchain strategy and implementation, [Contact us](/contact).*

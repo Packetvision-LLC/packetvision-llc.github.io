@@ -169,4 +169,4 @@ Organizations that approach DevOps strategically, with clear objectives and meas
 
 ---
 
-*Packetvision LLC helps organizations implement DevOps practices and measure business impact. For guidance on DevOps transformation initiatives, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement DevOps practices and measure business impact. For guidance on DevOps transformation initiatives, [Contact us](/contact).*

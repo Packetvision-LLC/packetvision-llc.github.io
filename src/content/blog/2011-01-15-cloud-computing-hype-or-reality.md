@@ -49,4 +49,4 @@ The key is not to rush into a full cloud migration, but to develop a thoughtful 
 
 ---
 
-*Packetvision LLC provides strategic IT consulting services to help organizations navigate technology transitions. Contact us at our contact page at /contact for more information.*
+*Packetvision LLC provides strategic IT consulting services to help organizations navigate technology transitions. [Contact us](/contact) for more information.*

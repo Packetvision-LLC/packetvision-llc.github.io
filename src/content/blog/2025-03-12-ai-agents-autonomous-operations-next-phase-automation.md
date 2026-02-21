@@ -186,4 +186,4 @@ The key is to approach AI agents strategically, starting with well-defined use c
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement AI agent technologies for business process automation. For guidance on autonomous operations strategies, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement AI agent technologies for business process automation. For guidance on autonomous operations strategies, [Contact us](/contact).*

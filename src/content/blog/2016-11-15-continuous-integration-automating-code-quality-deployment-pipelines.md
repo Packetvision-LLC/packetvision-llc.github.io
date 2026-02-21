@@ -301,4 +301,4 @@ Success with CI requires cultural change as much as technical implementation, wi
 
 ---
 
-*Packetvision LLC helps organizations implement continuous integration practices and build automated development pipelines. For guidance on CI/CD strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement continuous integration practices and build automated development pipelines. For guidance on CI/CD strategy and implementation, [Contact us](/contact).*

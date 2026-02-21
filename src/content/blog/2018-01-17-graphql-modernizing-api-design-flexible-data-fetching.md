@@ -289,4 +289,4 @@ Organizations that approach GraphQL adoption thoughtfully, with proper training 
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement GraphQL APIs for improved data fetching and developer experience. For guidance on GraphQL strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement GraphQL APIs for improved data fetching and developer experience. For guidance on GraphQL strategy and implementation, [Contact us](/contact).*

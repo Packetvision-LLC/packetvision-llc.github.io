@@ -291,4 +291,4 @@ The key to successful PWA implementation is focusing on user experience and prog
 
 ---
 
-*Packetvision LLC helps organizations design and implement Progressive Web Apps that deliver native-like experiences through web technologies. For guidance on PWA strategy and development, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement Progressive Web Apps that deliver native-like experiences through web technologies. For guidance on PWA strategy and development, [Contact us](/contact).*

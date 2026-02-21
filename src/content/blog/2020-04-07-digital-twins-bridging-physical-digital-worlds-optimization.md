@@ -287,4 +287,4 @@ Organizations that approach digital twins strategically, with focus on specific 
 
 ---
 
-*Packetvision LLC helps organizations evaluate, design, and implement digital twin solutions across various industries and use cases. For guidance on digital twin strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate, design, and implement digital twin solutions across various industries and use cases. For guidance on digital twin strategy and implementation, [Contact us](/contact).*

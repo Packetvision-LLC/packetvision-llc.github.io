@@ -261,4 +261,4 @@ Success requires viewing privacy as a business enabler rather than just a compli
 
 ---
 
-*Packetvision LLC helps organizations implement privacy engineering practices and build privacy protection into their systems and processes. For guidance on privacy by design and regulatory compliance, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement privacy engineering practices and build privacy protection into their systems and processes. For guidance on privacy by design and regulatory compliance, [Contact us](/contact).*

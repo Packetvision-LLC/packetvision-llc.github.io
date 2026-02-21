@@ -229,4 +229,4 @@ Organizations that approach social media strategically, with clear objectives an
 
 ---
 
-*Packetvision LLC helps organizations develop strategic social media programs that drive business value. Contact us at our contact page at /contact for guidance on social media strategy and implementation.*
+*Packetvision LLC helps organizations develop strategic social media programs that drive business value. [Contact us](/contact) for guidance on social media strategy and implementation.*

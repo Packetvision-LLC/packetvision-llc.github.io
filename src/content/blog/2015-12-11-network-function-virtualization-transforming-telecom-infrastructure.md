@@ -311,4 +311,4 @@ Success with NFV requires careful planning, appropriate technology selection, an
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement Network Function Virtualization strategies for flexible, cost-effective network services. For guidance on NFV architecture and deployment, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement Network Function Virtualization strategies for flexible, cost-effective network services. For guidance on NFV architecture and deployment, [Contact us](/contact).*

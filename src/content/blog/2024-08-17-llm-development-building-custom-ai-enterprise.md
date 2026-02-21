@@ -225,4 +225,4 @@ Organizations that approach custom LLM development strategically, with clear bus
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement custom LLM development strategies. For guidance on enterprise AI development and deployment, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement custom LLM development strategies. For guidance on enterprise AI development and deployment, [Contact us](/contact).*

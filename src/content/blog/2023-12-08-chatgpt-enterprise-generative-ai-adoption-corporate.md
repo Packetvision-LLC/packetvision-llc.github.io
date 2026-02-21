@@ -283,4 +283,4 @@ The key is to approach AI adoption strategically, with appropriate safeguards an
 
 ---
 
-*Packetvision LLC helps organizations develop strategies for responsible enterprise AI adoption and implementation. For guidance on generative AI governance and deployment, contact our contact page at /contact.*
+*Packetvision LLC helps organizations develop strategies for responsible enterprise AI adoption and implementation. For guidance on generative AI governance and deployment, [Contact us](/contact).*

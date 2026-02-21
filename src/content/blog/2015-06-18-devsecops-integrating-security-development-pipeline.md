@@ -168,4 +168,4 @@ The key is to start with automation and gradually build security expertise withi
 
 ---
 
-*Packetvision LLC helps organizations implement DevSecOps practices and integrate security into development pipelines. For guidance on DevSecOps transformation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement DevSecOps practices and integrate security into development pipelines. For guidance on DevSecOps transformation, [Contact us](/contact).*

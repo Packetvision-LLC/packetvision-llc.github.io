@@ -90,4 +90,4 @@ The key is to view data protection not as an IT problem, but as a business conti
 
 ---
 
-*Packetvision LLC helps organizations design and implement comprehensive data protection strategies. For more information about backup and recovery planning, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement comprehensive data protection strategies. For more information about backup and recovery planning, [Contact us](/contact).*

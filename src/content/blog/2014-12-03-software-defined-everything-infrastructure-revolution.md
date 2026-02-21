@@ -173,4 +173,4 @@ Organizations that begin exploring software-defined technologies now will be bet
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement software-defined infrastructure solutions. For guidance on software-defined transformation initiatives, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement software-defined infrastructure solutions. For guidance on software-defined transformation initiatives, [Contact us](/contact).*

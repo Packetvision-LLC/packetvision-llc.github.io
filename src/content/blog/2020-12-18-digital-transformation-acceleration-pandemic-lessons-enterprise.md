@@ -259,4 +259,4 @@ The key lessons focus on the importance of leadership commitment, cross-function
 
 ---
 
-*Packetvision LLC helps organizations learn from pandemic transformation experiences and build sustainable digital capabilities. For guidance on digital transformation strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations learn from pandemic transformation experiences and build sustainable digital capabilities. For guidance on digital transformation strategy and implementation, [Contact us](/contact).*

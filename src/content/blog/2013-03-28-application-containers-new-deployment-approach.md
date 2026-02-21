@@ -141,4 +141,4 @@ Organizations that begin experimenting with containers now will be better positi
 
 ---
 
-*Packetvision LLC monitors emerging technologies and helps organizations evaluate their potential business impact. For more information about containerization and other emerging trends, contact our contact page at /contact.*
+*Packetvision LLC monitors emerging technologies and helps organizations evaluate their potential business impact. For more information about containerization and other emerging trends, [Contact us](/contact).*

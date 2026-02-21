@@ -270,4 +270,4 @@ The key is to balance consistency and standards with flexibility and developer e
 
 ---
 
-*Packetvision LLC helps organizations design and implement API-first architectures that enable digital transformation and innovation. For guidance on API strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations design and implement API-first architectures that enable digital transformation and innovation. For guidance on API strategy and implementation, [Contact us](/contact).*

@@ -291,4 +291,4 @@ Success requires treating security as an integral part of Kubernetes operations 
 
 ---
 
-*Packetvision LLC helps organizations implement comprehensive Kubernetes security strategies and hardening practices. For guidance on container orchestration security and compliance, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement comprehensive Kubernetes security strategies and hardening practices. For guidance on container orchestration security and compliance, [Contact us](/contact).*

@@ -105,4 +105,4 @@ The consumerization of IT is not about giving employees toys—it's about recogn
 
 ---
 
-*Packetvision LLC helps organizations balance user experience improvements with enterprise requirements. For guidance on consumerization strategies, contact our contact page at /contact.*
+*Packetvision LLC helps organizations balance user experience improvements with enterprise requirements. For guidance on consumerization strategies, [Contact us](/contact).*

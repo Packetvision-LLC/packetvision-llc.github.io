@@ -166,4 +166,4 @@ The key is to adopt microservices gradually, focusing on clear business benefits
 
 ---
 
-*Packetvision LLC helps organizations evaluate microservices architectures and implement service-oriented systems. For guidance on architectural modernization, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate microservices architectures and implement service-oriented systems. For guidance on architectural modernization, [Contact us](/contact).*

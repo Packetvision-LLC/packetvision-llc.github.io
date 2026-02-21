@@ -235,4 +235,4 @@ The key is to approach IaC adoption gradually, building skills and processes whi
 
 ---
 
-*Packetvision LLC helps organizations implement Infrastructure as Code practices and modernize their infrastructure management approaches. For guidance on IaC strategy and implementation, contact our contact page at /contact.*
+*Packetvision LLC helps organizations implement Infrastructure as Code practices and modernize their infrastructure management approaches. For guidance on IaC strategy and implementation, [Contact us](/contact).*

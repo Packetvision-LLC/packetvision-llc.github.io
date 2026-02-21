@@ -136,4 +136,4 @@ The key is to approach SDN strategically, focusing on specific business problems
 
 ---
 
-*Packetvision LLC helps organizations evaluate and implement SDN technologies. For guidance on software-defined networking strategies, contact our contact page at /contact.*
+*Packetvision LLC helps organizations evaluate and implement SDN technologies. For guidance on software-defined networking strategies, [Contact us](/contact).*
