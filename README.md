@@ -48,4 +48,4 @@ This site is configured for deployment to GitHub Pages. The build output goes to
 
 ## 📝 License
 
-Copyright © 2026 Packetvision LLC. All rights reserved.
+Copyright © 2026 Packetvision LLC. All rights reserved.# Force redeploy
