@@ -8,8 +8,6 @@ category: "technical"
 featured: true
 ---
 
-# Building a Receipt-to-Revenue Pipeline: How We Automated Every Step from Expense to Invoice
-
 Picture this: You're grabbing dinner with a potential client, discussing their next big project. Great conversation, promising opportunity, and a $127 restaurant bill that needs to find its way into your expense system. 
 
 For most businesses, that receipt triggers a manual nightmare: photograph it, categorize the expense, remember who you met with, log the meeting in your CRM, track billable time if applicable, and hope nothing falls through the cracks.
