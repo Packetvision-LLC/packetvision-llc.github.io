@@ -16,7 +16,7 @@ Pre-deployment validation and local preview scripts for the Packetvision company
 
 ### `./scripts/deploy-local.sh`
 **Local preview server:**
-- 🌐 Serves site at **http://localhost:4322** 
+- 🌐 Serves site at **http://localhost:4322**
 - 🔧 Runs pre-deploy validation first
 - 📦 Uses existing build or builds fresh
 - 🚪 Uses port 4322 (different from stuartbain.com's 4321)
@@ -29,7 +29,6 @@ Pre-deployment validation and local preview scripts for the Packetvision company
 ./scripts/deploy-local.sh
 
 # Access at: http://localhost:4322
-
 ```
 
 ### Validation Only
