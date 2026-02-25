@@ -1,6 +1,6 @@
 #!/bin/bash
 # Local deployment script for packetvision.net (PACV)
-# Builds and serves the site locally on localhost for Stuart to review
+# Builds and serves the site locally for development and review
 
 set -e  # Exit on any error
 
@@ -28,9 +28,9 @@ error() {
 }
 
 # Configuration (use different port than stuartbain.com)
-TAILSCALE_IP="localhost"
+HOST="localhost"
 PORT="4322"
-PREVIEW_URL="http://${TAILSCALE_IP}:${PORT}"
+PREVIEW_URL="http://${HOST}:${PORT}"
 
 log "🚀 packetvision.net Local Deployment Starting..."
 
@@ -83,12 +83,11 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo -e "${GREEN}🏢 packetvision.net Local Preview${NC}"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "${BLUE}🔗 Preview URL:${NC} $PREVIEW_URL"
-echo -e "${BLUE}🎯 localhost:${NC} $HOST"
 echo -e "${BLUE}🚪 Port:${NC} $PORT"
 echo -e "${BLUE}📁 Serving from:${NC} $(pwd)/dist"
 echo ""
 echo -e "${YELLOW}💡 Tips:${NC}"
-echo "  • Site is only accessible via local network"
+echo "  • Site will be available at localhost:$PORT"
 echo "  • Use Ctrl+C to stop the server"
 echo "  • Deploy flag is FALSE - no GitHub pushes will be made"
 echo "  • Company website ready for review and deployment!"
