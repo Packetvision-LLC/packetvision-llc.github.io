@@ -30,8 +30,28 @@
 </div>
 
 <script>
+  interface PagefindSearchResult {
+    data: () => Promise<{
+      meta: { title?: string };
+      url: string;
+      excerpt?: string;
+      content?: string;
+    }>;
+  }
+
+  interface PagefindApi {
+    init?: () => Promise<void>;
+    search: (query: string) => Promise<{ results: PagefindSearchResult[] }>;
+  }
+
+  declare global {
+    interface Window {
+      pagefind?: PagefindApi;
+    }
+  }
+
   // Initialize Pagefind search
-  let pagefind;
+  let pagefind: PagefindApi | undefined;
   
   async function initializeSearch() {
     try {
@@ -44,16 +64,16 @@
         script.type = 'text/javascript';
         document.head.appendChild(script);
         
-        await new Promise((resolve, reject) => {
-          script.onload = resolve;
+        await new Promise<void>((resolve, reject) => {
+          script.onload = () => resolve();
           script.onerror = (error) => {
             console.error('Failed to load Pagefind script:', error);
             // Try fallback path
             const fallbackScript = document.createElement('script');
             fallbackScript.src = '/pagefind/pagefind.js';
             fallbackScript.type = 'text/javascript';
-            fallbackScript.onload = resolve;
-            fallbackScript.onerror = reject;
+            fallbackScript.onload = () => resolve();
+            fallbackScript.onerror = () => reject(new Error('Failed to load Pagefind fallback script'));
             document.head.appendChild(fallbackScript);
           };
         });
@@ -63,13 +83,13 @@
       if (pagefind && typeof pagefind.init === 'function') {
         await pagefind.init();
         console.log('Pagefind initialized successfully');
-      } else {
+      } else if (!pagefind) {
         throw new Error('Pagefind not properly loaded');
       }
     } catch (error) {
       console.error('Failed to initialize Pagefind:', error);
       // Disable search functionality gracefully
-      const searchInput = document.getElementById('blog-search');
+      const searchInput = document.getElementById('blog-search') as HTMLInputElement | null;
       if (searchInput) {
         searchInput.placeholder = 'Search temporarily unavailable';
         searchInput.disabled = true;
@@ -78,7 +98,7 @@
   }
 
   // Search function
-  async function performSearch(query) {
+  async function performSearch(query: string) {
     if (!pagefind) {
       await initializeSearch();
     }
@@ -95,7 +115,7 @@
 
     try {
       const search = await pagefind.search(query);
-      displaySearchResults(search.results, query);
+      displaySearchResults(search.results);
     } catch (error) {
       console.error('Search error:', error);
       displaySearchError();
@@ -103,10 +123,14 @@
   }
 
   // Display search results
-  async function displaySearchResults(results, query) {
+  async function displaySearchResults(results: PagefindSearchResult[]) {
     const resultsContainer = document.getElementById('search-results');
     const resultsList = document.getElementById('search-results-list');
     const noResults = document.getElementById('search-no-results');
+
+    if (!resultsContainer || !resultsList || !noResults) {
+      return;
+    }
 
     if (results.length === 0) {
       resultsList.innerHTML = '';
@@ -121,18 +145,17 @@
     // Process and display results
     try {
       const processedResults = await Promise.all(
-        results.slice(0, 10).map(async (result) => {
+        results.slice(0, 10).map(async (result: PagefindSearchResult) => {
           const data = await result.data();
           return {
             title: data.meta.title || 'Untitled',
             url: data.url,
             excerpt: data.excerpt,
-            content: data.content
           };
         })
       );
 
-      resultsList.innerHTML = processedResults.map(result => `
+      resultsList.innerHTML = processedResults.map((result) => `
         <article class="mb-6 pb-6 border-b border-gray-700 last:border-b-0">
           <h4 class="text-lg font-semibold text-white mb-2">
             <a href="${result.url}" class="hover:text-blue-400 transition-colors">
@@ -159,6 +182,10 @@
     const resultsList = document.getElementById('search-results-list');
     const noResults = document.getElementById('search-no-results');
 
+    if (!resultsContainer || !resultsList || !noResults) {
+      return;
+    }
+
     noResults.classList.add('hidden');
     resultsContainer.classList.remove('hidden');
     resultsList.innerHTML = `
@@ -172,19 +199,24 @@
   // Hide search results
   function hideSearchResults() {
     const resultsContainer = document.getElementById('search-results');
+    if (!resultsContainer) {
+      return;
+    }
     resultsContainer.classList.add('hidden');
   }
 
   // Set up search event listeners
   document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('blog-search');
-    let searchTimeout;
+    const searchInput = document.getElementById('blog-search') as HTMLInputElement | null;
+    let searchTimeout: ReturnType<typeof setTimeout> | undefined;
 
     if (searchInput) {
       // Debounced search
       searchInput.addEventListener('input', function(e) {
-        clearTimeout(searchTimeout);
-        const query = e.target.value;
+        if (searchTimeout) {
+          clearTimeout(searchTimeout);
+        }
+        const query = (e.currentTarget as HTMLInputElement).value;
         
         if (query.length === 0) {
           hideSearchResults();

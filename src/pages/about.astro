@@ -169,7 +169,7 @@ import '../styles/global.css';
     document.addEventListener('DOMContentLoaded', function() {
       // Obfuscate email addresses
       const email = 'stuart' + '@' + 'packetvision.net';
-      const contactElement = document.getElementById('about-contact');
+      const contactElement = document.getElementById('about-contact') as HTMLAnchorElement | null;
       
       if (contactElement) {
         contactElement.href = 'mailto:' + email;

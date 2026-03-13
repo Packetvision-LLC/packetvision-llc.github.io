@@ -44,7 +44,15 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🚀 Deployment
 
-This site is configured for deployment to GitHub Pages. The build output goes to the `dist/` directory which should be deployed to the `gh-pages` branch.
+This site is configured for a conservative GitHub Pages release flow:
+
+1. validate changes locally with `./scripts/pre-deploy.sh`
+2. open a pull request to `main`
+3. wait for the `Validate Packetvision.net` workflow to pass
+4. merge after review
+5. manually run `Deploy Packetvision.net to GitHub Pages` from GitHub Actions
+
+See [RELEASE.md](./RELEASE.md) for the full promotion path, required gates, and rollback steps.
 
 ## 📝 License
 

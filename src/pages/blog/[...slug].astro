@@ -93,7 +93,7 @@ const { Content } = await post.render();
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const email = 'stuart' + '@' + 'packetvision.net';
-      const contactElement = document.getElementById('blog-post-contact');
+      const contactElement = document.getElementById('blog-post-contact') as HTMLAnchorElement | null;
       
       if (contactElement) {
         contactElement.href = 'mailto:' + email;
