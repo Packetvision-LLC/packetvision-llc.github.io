@@ -1,0 +1,45 @@
+name: Preview Packetvision.net build
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    name: Build preview artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build preview artifact
+        run: npm run build
+
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: packetvision-preview
+          path: dist
+          if-no-files-found: error
+
+      - name: Write job summary
+        run: |
+          {
+            echo '## Preview artifact ready'
+            echo
+            echo '- Validation: `npm run build` and preview artifact upload'
+            echo '- Artifact: `packetvision-preview` (download from this workflow run)'
+            echo '- Production is unchanged; this workflow does not publish to GitHub Pages.'
+          } >> "$GITHUB_STEP_SUMMARY"
