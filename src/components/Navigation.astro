@@ -62,8 +62,8 @@
   document.addEventListener('DOMContentLoaded', function() {
     // Email obfuscation
     const email = 'stuart' + '@' + 'packetvision.net';
-    const navContactElements = document.querySelectorAll('#nav-contact, #mobile-nav-contact');
-    navContactElements.forEach(element => {
+    const navContactElements = document.querySelectorAll<HTMLAnchorElement>('#nav-contact, #mobile-nav-contact');
+    navContactElements.forEach((element) => {
       element.href = 'mailto:' + email;
     });
 

@@ -52,10 +52,10 @@ Pre-deployment validation and local preview scripts for the Packetvision company
 - GitHub Pages ready
 
 ⏳ **Next Steps:**
-1. Stuart reviews via local preview
-2. Set `deploy: true` in project-priorities.md
-3. Push to GitHub + set up GitHub Actions
-4. Configure packetvision.net DNS (CNAME)
+1. Review locally with `./scripts/deploy-local.sh`
+2. Open a PR to `main` and wait for the validation workflow to pass
+3. Merge after review, then manually run the GitHub Pages deploy workflow
+4. Confirm the live site and packetvision.net DNS/CNAME behavior
 
 ## GitHub Pages Deployment
 
