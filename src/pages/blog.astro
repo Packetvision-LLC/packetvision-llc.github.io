@@ -89,7 +89,7 @@ const page = {
                   )}
                 </div>
                 <h2 class="text-2xl font-bold text-white mb-3 hover:text-blue-400 transition-colors">
-                  <a href={`/blog/${post.slug}`}>
+                  <a href={`/blog/${post.id}`}>
                     {post.data.title}
                   </a>
                 </h2>
@@ -97,7 +97,7 @@ const page = {
                   {post.data.description}
                 </p>
                 <a 
-                  href={`/blog/${post.slug}`}
+                  href={`/blog/${post.id}`}
                   class="text-blue-400 hover:text-blue-300 font-medium inline-flex items-center gap-1 transition-colors"
                 >
                   Read More
@@ -111,7 +111,6 @@ const page = {
         ))}
       </section>
     ) : (
-      <!-- Empty State -->
       <section class="text-center py-16">
         <div class="bg-gray-800 rounded-xl p-12">
           <div class="w-16 h-16 bg-gray-700 rounded-xl flex items-center justify-center mx-auto mb-6">

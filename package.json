@@ -3,6 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Packetvision LLC company website built with Astro, Tailwind CSS, and TypeScript",
+  "engines": {
+    "node": ">=24 <25"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && npx pagefind --site dist --glob=\"blog/**/*.html\"",
@@ -13,9 +16,11 @@
     "astro": "^7.1.0"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^6.0.2",
+    "@astrojs/check": "^0.9.9",
     "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.3.3",
     "pagefind": "^1.4.0",
-    "tailwindcss": "^3.4.19"
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3"
   }
 }

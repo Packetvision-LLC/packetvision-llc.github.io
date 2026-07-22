@@ -169,7 +169,7 @@ import '../styles/global.css';
     document.addEventListener('DOMContentLoaded', function() {
       // Obfuscate email addresses
       const email = 'stuart' + '@' + 'packetvision.net';
-      const emailElements = document.querySelectorAll('#primary-email, #cta-email');
+      const emailElements = document.querySelectorAll<HTMLAnchorElement>('#primary-email, #cta-email');
       
       emailElements.forEach(element => {
         if (element) {

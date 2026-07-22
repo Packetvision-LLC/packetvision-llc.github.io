@@ -20,7 +20,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const email = 'stuart' + '@' + 'packetvision.net';
-    const footerContact = document.getElementById('footer-contact');
+    const footerContact = document.querySelector<HTMLAnchorElement>('#footer-contact');
     if (footerContact) {
       footerContact.href = 'mailto:' + email;
     }
