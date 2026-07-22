@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import '../../styles/global.css';
 
 export async function getStaticPaths() {
@@ -8,13 +8,13 @@ export async function getStaticPaths() {
     return !data.draft;
   });
   return blogPosts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: { post },
   }));
 }
 
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 ---
 
 <BaseLayout title={`${post.data.title} - Packetvision LLC Blog`} description={post.data.description}>
@@ -93,7 +93,7 @@ const { Content } = await post.render();
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const email = 'stuart' + '@' + 'packetvision.net';
-      const contactElement = document.getElementById('blog-post-contact');
+      const contactElement = document.querySelector<HTMLAnchorElement>('#blog-post-contact');
       
       if (contactElement) {
         contactElement.href = 'mailto:' + email;

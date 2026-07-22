@@ -279,7 +279,7 @@ import '../styles/global.css';
 		document.addEventListener('DOMContentLoaded', function() {
 			// Obfuscate email addresses
 			const email = 'stuart' + '@' + 'packetvision.net';
-			const contactElements = document.querySelectorAll('#hosting-cta');
+			const contactElements = document.querySelectorAll<HTMLAnchorElement>('#hosting-cta');
 			
 			contactElements.forEach(element => {
 				const subject = element.href.split('?subject=')[1] || '';
