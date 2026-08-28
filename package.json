@@ -10,6 +10,7 @@
     "dev": "astro dev",
     "build": "astro build && npx pagefind --site dist --glob=\"blog/**/*.html\"",
     "preview": "astro preview",
+    "preview:prod": "npm run build && astro preview",
     "astro": "astro"
   },
   "dependencies": {
