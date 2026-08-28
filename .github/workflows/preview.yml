@@ -1,0 +1,54 @@
+name: Preview Packetvision.net changes
+
+on:
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: preview-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-preview:
+    name: Build preview artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build preview site
+        run: npm run build
+
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: packetvision-preview-${{ github.event.pull_request.number || github.run_number }}
+          path: dist
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Add workflow summary
+        run: |
+          {
+            echo "## Preview build ready"
+            echo
+            echo "A preview artifact for this change set was built successfully."
+            echo
+            echo "- Download the **packetvision-preview** artifact from this run to inspect the generated site"
+            echo "- For local review, run \`npm install && npm run build && npm run preview\`"
+            echo "- Production GitHub Pages deploy still occurs only from pushes to \`main\`"
+          } >> "$GITHUB_STEP_SUMMARY"
