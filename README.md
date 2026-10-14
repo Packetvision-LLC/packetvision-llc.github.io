@@ -46,6 +46,16 @@ All commands are run from the root of the project, from a terminal:
 
 This site is configured for deployment to GitHub Pages. The build output goes to the `dist/` directory which should be deployed to the `gh-pages` branch.
 
+## 🔐 Security monitoring
+
+Repository security coverage is tracked through GitHub-native tooling:
+
+- Dependabot is configured for both npm dependencies and GitHub Actions in `.github/dependabot.yml`
+- GitHub vulnerability alerts and Dependabot security updates should remain enabled in repository settings
+- Maintainers should validate fixes with `npm run build` before merging
+
+See [`SECURITY.md`](./SECURITY.md) for the maintainer response workflow.
+
 ## 📝 License
 
 Copyright © 2026 Packetvision LLC. All rights reserved.# Force redeploy
